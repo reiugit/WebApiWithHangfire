@@ -1,0 +1,11 @@
+@HostAddress = http://localhost:5236
+
+GET {{HostAddress}}/enqueue-backgroundjob/
+Accept: application/json
+
+###
+
+GET {{HostAddress}}/schedule-backgroundjob/
+Accept: application/json
+
+###
